@@ -1,0 +1,138 @@
+{
+  "name": "historical-us-house-prices",
+  "title": "Historical us house prices",
+  "resources": [
+    {
+      "path": "data/Nominal-Home-Price-Index.csv",
+      "pathType": "local",
+      "name": "nominal-home-price-index",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Nominal Home Price Index",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/Consumer-Price-Index.csv",
+      "pathType": "local",
+      "name": "consumer-price-index",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Consumer Price Index",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/Real-Building-Cost-Index.csv",
+      "pathType": "local",
+      "name": "real-building-cost-index",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Real Building Cost Index",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/Real-Home-Price-Index.csv",
+      "pathType": "local",
+      "name": "real-home-price-index",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-2",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "Real Home Price Index",
+            "type": "number",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "scripts/dataset-curator.py",
+      "pathType": "local",
+      "name": "dataset-curator",
+      "format": "py",
+      "encoding": "ISO-8859-1"
+    }
+  ],
+  "readme": "The prices in the files are the prices of houses and buidling and this version of the figure has quarterly data from 1953-I for prices, all other data are annual.\n\n## Data\n\nDataset contains Real Home Price Index, Real Building Cost Index, Nominal Home Price Index and Consumer-Price-Index of U.S., starting from 1890 to 2014's quarter.\n\n## Preparation\n\nTo update the data run the process script locally:\n```bash\npython scripts/process.py\n```\n\nSeveral steps will be done to get the final data.\n\n* get the original file from the remote url [Fig2-1.xls](http://www.econ.yale.edu/~shiller/data/Fig2-1.xls)\n* get the data from the sheet: \"Data\"\n* remove \"Date\" columns other than the first one\n* remove columns: \"U.S. Population Millions\", \"Long Rate\", \"HPI Source\", \"Nominal Building Cost Index\", \"CPI Annual & Quarterly\", \"CPI Annual\"\n\n## Automation\n\nHistorical US House Prices datapackage could be found on the [datahub.io](http://datahub.io/):  \nhttps://datahub.io/core/Historical-US-House-Prices\n\n## License\n\nhe source specifies that the data can be used as is without any warranty. Given size and factual nature of the data and its source from a US company would imagine this was public domain and as such have licensed the Data Package under the Public Domain Dedication and License (PDDL).",
+  "description": "The prices in the files are the prices of houses and buidling and this version of the figure has qua",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
