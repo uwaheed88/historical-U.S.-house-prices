@@ -8,19 +8,19 @@ The data is fetched from [Department of Economics, Yale University](https://econ
 
 Dataset contains following fields:
 
-* "Date" representing year of which prices belong to.
+* "Date" representing the year of which prices belong to.
 * "Real Home Price Index" showing a house price index, which measures the price changes of residential housing as a percentage change from some specific start date.
 * "Real Building Cost Index" showing a building price index, which measures the price changes of building as a percentage change from some specific start date.
-* "U.S. Population Millions" showing the population of United States in millions.
+* "U.S. Population Millions" showing the population of the United States in millions.
 * "Long Rate" showing the rate of interest borne.
 * "Long Rate Source" showing the source of Long Rate.
-* "Nominal Home Price Index From_fig2.1Revised2011.xls" is shpwing nominal HPI from the fig2 in the source.xls file.
+* "Nominal Home Price Index From_fig2.1Revised2011.xls" is showing nominal HPI from the fig2 in the source.xls file.
 * "HPI Source" showing the source of the home price index.
-* "Nominal Building Cost Index" showing the nominal buidling price index 
-* "Build Cost Source" showing the source where the BCI come from.
-* "Consumer Price Index" showing measures changes in the price level of a weighted average market of consumer and services purchased.
-* "CPI Annual & Quarterly" showing the Consumer Price Index Annualy & quarterly.
-* "CPI Annual" showing the Consumer Price Index Annualy
+* "Nominal Building Cost Index" showing the nominal building price index 
+* "Build Cost Source" showing the source where the BCI comes from.
+* "Consumer Price Index" showing measures changes in the price level of a weighted average market of consumers and services purchased.
+* "CPI Annual & Quarterly" showing the Consumer Price Index Annually & quarterly.
+* "CPI Annual" showing the Consumer Price Index Annually
 
 ## Preparation
 
