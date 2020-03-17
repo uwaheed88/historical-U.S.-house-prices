@@ -39,4 +39,4 @@ Several steps will be done to get the final data.
 
 The data collection effort about investor attitudes that [Robert J. Shiller](http://www.econ.yale.edu/~shiller/bio.htm) have been conducting since 1989 has now resulted in a group of Stock Market Confidence Indexes produced by the Yale School of Management. These data are collected in collaboration with Fumiko Kon-Ya and Yoshiro Tsutsui of Japan. Some of our earlier results are also noteworthy: [Results of Surveys about Stock Market Speculation 12/99](http://www.econ.yale.edu/~shiller/data/investor.html).
 
-Historical housing market data used in book, Irrational Exuberance [Princeton University Press 2000, Broadway Books 2001, 2nd edition, 2005], showing home prices since 1890 are available for download and updated monthly.
+Historical housing market data used in book, Irrational Exuberance (Princeton University Press 2000, Broadway Books 2001, 2nd edition, 2005), showing home prices since 1890 are available for download and updated monthly.
